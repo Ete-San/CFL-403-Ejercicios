@@ -1,0 +1,30 @@
+*{
+    background-color: antiquewhite;
+    padding: 5px;
+    margin: 2px;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3em blue;
+
+}
+
+form {
+    text-shadow: 1px 1px 1px gray;
+}
+
+h4 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5em;
+}
+
+button {
+    background-color: tomato;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    box-shadow: 2px 2px 2px black;
+}

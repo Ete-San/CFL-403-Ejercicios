@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Inscripcion</title>
+    <link rel="stylesheet" href="../CSS/formClase11.css">
+</head>
+<body>
+    <h1>Formulario de Inscripción</h1>
+
+    <form action="" method="get">
+        <div class="name">
+            <h4>Nombre y Apellido</h4>
+            <input type="text" name="" id="name" placeholder="Nombre">
+            <input type="text" name="" id="" placeholder="Apellido">
+            
+        </div class="contact">
+        <h4>Contacto</h4>
+        <input type="email" name="" id="" placeholder="email">
+        <input type="tel" name="" id="" placeholder="Telefono">
+        <div>
+            <input type="password" name="" id="password" placeholder="Contraseña">
+            <input type="password" name="" id="confirm" placeholder="Confirme contraseña">
+        </div>
+        <div class="sexo">
+            <h4>Genero</h4>
+            <input type="radio" name="genero" id="Hombre" value="Hombre"><label for="genero">Hombre</label>
+            <input type="radio" name="genero" id="Mujer" value="Mujer"><label for="genero">Mujer</label>
+            <input type="radio" name="genero" id="otro" value="Otro"><label for="genero">Otro</label>
+        </div>
+        <div class="hobbies">
+            <h4>Actividades</h4>
+            <input type="checkbox" name="" id="musica"><label for="musica">Musica</label>
+            <input type="checkbox" name="" id="cocina"><label for="cocina">Cocina</label>
+            <input type="checkbox" name="" id="fisico"><label for="fisico">Actividad Física</label>
+        </div>
+        <div class="estaciones">
+            <h4>Estacion del año preferida</h4>
+            <select name="" id="">
+                <option value="libre">- - </option>
+                <option value="verano">Verano</option>
+                <option value="otoño">Otoño</option>
+                <option value="invierno">Invierno</option>
+                <option value="primavera">Primavera</option>
+            </select>
+        </div>
+        <div class="perfil">
+            <h4>Suba su foto</h4>
+            <input type="file" name="" id="foto">
+        </div>
+    </form>
+    <button onclick="verifyName()">Tester Nombre</button>
+    <button onclick="verifyContraseña()">Tester Contraseña</button>
+    <script src="../JS/verificacion11.js"></script>
+</body>
+</html>
